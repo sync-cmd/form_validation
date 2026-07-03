@@ -10,7 +10,7 @@
         body {
             background: url('https://admissionsight.com/wp-content/uploads/2025/11/how-many-times-can-you-take-the-act.jpg') no-repeat center center fixed;
             background-size: cover;
-            
+
         }
 
         .card {
@@ -36,7 +36,7 @@
 
         .btn-submit {
             inset: 3px 3px 3px 3px;
-            background: linear-gradient(90deg, #6f42c1, #007bff);
+            background: linear-gradient(90deg, #d3d2d4);
             border-radius: 50px;
             border: none;
 
@@ -44,14 +44,15 @@
             align-items: center;
             transition: 0.5s ease;
         }
+
         .btn-submit:hover {
-            background: linear-gradient(90deg, #007bff, #6f42c1);
-            color:#e00f08
+            background: linear-gradient(90deg, #561e8f);
+            color: #eee4e4
         }
 
         .btn-reset {
             inset: 3px 3px 3px 3px;
-            background: linear-gradient(90deg, #0b7ffa, #ca3c11);
+            background: linear-gradient(90deg, #d3d2d4);
 
             border-radius: 50px;
             border: none;
@@ -60,9 +61,10 @@
             align-items: center;
             transition: 0.5s ease;
         }
+
         .btn-reset:hover {
-            background: linear-gradient(90deg, #0b7ffa, #ca3c11);
-            color:#e00f08
+            background: linear-gradient(90deg, #561e8f);
+            color: #e00f08
         }
 
         pre {
@@ -82,17 +84,25 @@
 </head>
 
 <body>
-    
+
     <div class="container px-5 py-5">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8">
                 <div class="card shadow-sm p-5 p-lg-6">
                     <div class="card-body p-5 p-lg-6">
-                        <h3 class="card-title mb-3"><span
-                                style="background-color: rgb(193, 227, 238); color:#6f42c1,#007bff; padding: 5px; border-radius: 5px; display: inline-block; font-style: italic; font-weight: bold; text-align: center; width: 100%;">Student
-                                Admission Form</h3>
+                        <label class="card-title mb-3" style="font-size: 1.5rem; 
+                             padding: 5px; 
+                             border-radius: 5px; 
+                             font-style: italic; 
+                             font-weight: bold; 
+                             text-align: center;">
+                            Student Admission Form
+                        </label>
+
+
                     </div></span></h3>
-                    <p class="text-muted mb-4">Please complete the form below. Fields marked with * are required.</p>
+                    <label class="text-muted mb-4">Please complete the form below. Fields marked with * are
+                        required.</label>
 
                     <form id="regForm" novalidate>
                         <div class="form-grid">
